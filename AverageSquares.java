@@ -19,11 +19,12 @@ public class AverageSquares {
         double sum = 0;
         int count = 0;
 
-        while(startNum <= endNum){
+        do {
             sum += startNum * startNum;
             count++;
             startNum++;
-        }
+        }while(startNum <= endNum);
+
 
         double average = sum / count;
 
