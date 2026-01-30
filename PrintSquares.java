@@ -7,17 +7,19 @@ public class PrintSquares {
         Scanner in = new Scanner(System.in);
 
         // Prompt for input
-        System.out.print("Enter your name: ");
+        // System.out.print("Enter your name: ");
 
         // Read in line from standard input
-        String name = in.nextLine();
+        // String name = in.nextLine();
 
-        System.out.println("Hi " + name + "!");
+        // System.out.println("Hi " + name + "!");
 
 
         System.out.print("Please enter the start value: ");
         int startNum = in.nextInt(); // Reads in an int from standard input
-        
+        // Clear any remaining input on the line.
+        in.nextLine();
+
         System.out.print("Please enter the end value: ");
         int endNum = in.nextInt();
 
