@@ -24,5 +24,11 @@ public class PrintSquares {
         int endNum = in.nextInt();
 
         System.out.println("You entered: " + startNum + " and " + endNum);
+
+        for (int i = startNum; i <= endNum; i++) {
+         System.out.print((i * i) + " ");
+        }
+
+        System.out.println();
     }
 }
