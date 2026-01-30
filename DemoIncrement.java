@@ -9,7 +9,7 @@ public class DemoIncrement {
         p++;
         int q = p + 5; 
 
-        System.out.println("a :" + a + ", b: " + b + ", x: " + x + ", y: " + y + ", p: " + p + ", q: " + q);
+        System.out.println("a : " + a + ", b: " + b + ", x: " + x + ", y: " + y + ", p: " + p + ", q: " + q);
 
         // Replace the xxxxx in the following with the correct term        
         System.out.println("i++ means post-increment");
