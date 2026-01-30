@@ -4,7 +4,7 @@ public class NumbersInSpanish {
        int number = Integer.parseInt(args[0]); 
 
        if (number == 1){
-        System.out.prinln("uno");
+        System.out.println("uno");
        } else if (number == 2){
         System.out.println("dos");
        } else if (number == 3){
