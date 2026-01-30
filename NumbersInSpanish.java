@@ -14,7 +14,7 @@ public class NumbersInSpanish {
        } else if (number == 5){
         System.out.println("cinco");
        } else {
-        System.err.println("Sorry I don't know that");
+        System.out.println("Sorry I don't know that");
        }
        // delete the line below and replace with your code
        System.out.println(number);
